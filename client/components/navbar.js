@@ -11,7 +11,7 @@ const Navbar = ({ handleClick, isLoggedIn }) => (
 
     <nav>
     <div className="nav-wrapper">
-    <a href="#" className="brand-logo">Logo</a>
+    <a href="/" className="brand-logo">Logo</a>
 
     <ul id="nav-mobile" className="right hide-on-med-and-down">
 
@@ -37,6 +37,9 @@ const Navbar = ({ handleClick, isLoggedIn }) => (
          >
         <NavItem>Login</NavItem>
         <NavItem>Signup</NavItem>
+  {/* debug links */}
+        <NavItem href="/home">My Account</NavItem>
+        <NavItem href="/orders>My Orders</NavItem>
       </Dropdown>
     )}
     </li>
